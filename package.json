@@ -1,0 +1,52 @@
+{
+  "name": "vue-markdown-wrapper",
+  "version": "1.0.0",
+  "author": {
+    "name": "Marc Jorge Gonzalez",
+    "url": "https://github.com/mjorgegulab"
+  },
+  "license": "Copyright (c) 2023, Marc Jorge Gonzalez. (MIT Licensed)",
+  "description": "Vue Markdown component based on marked library",
+  "bugs": {
+    "url": "https://github.com/mjorgegulab/vue-markdown-wrapper/issues"
+  },
+  "repository": "github:mjorgegulab/vue-markdown-wrapper",
+  "homepage": "https://github.com/mjorgegulab/vue-markdown-wrapper",
+  "main": "./dist/vue-markdown.umd.js",
+  "module": "./dist/vue-markdown.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/vue-markdown.mjs",
+      "require": "./dist/vue-markdown.umd.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "dompurify": "^3.0.5",
+    "marked": "^7.0.4"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/dompurify": "^3.0.2",
+    "@types/marked": "^5.0.1",
+    "@types/node": "^20.5.3",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-banner": "^0.7.0",
+    "vite-plugin-dts": "^3.5.2",
+    "vue-tsc": "^1.8.5"
+  }
+}
