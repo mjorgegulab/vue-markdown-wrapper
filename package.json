@@ -32,7 +32,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "dompurify": "^3.0.6",
+    "dompurify": "^3.0.7",
     "marked": "^7.0.5"
   },
   "peerDependencies": {
