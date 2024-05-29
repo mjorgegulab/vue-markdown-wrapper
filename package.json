@@ -32,8 +32,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "marked": "^12.0.2"
-    "dompurify": "^3.1.1",
+    "marked": "^12.0.2",
+    "dompurify": "^3.1.1"
   },
   "peerDependencies": {},
   "devDependencies": {
