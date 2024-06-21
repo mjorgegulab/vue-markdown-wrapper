@@ -5,7 +5,7 @@
     "name": "Marc Jorge Gonzalez",
     "url": "https://github.com/mjorgegulab"
   },
-  "license": "Copyright (c) 2023, Marc Jorge Gonzalez. (MIT Licensed)",
+  "license": "MIT",
   "description": "Vue Markdown component based on marked library",
   "bugs": {
     "url": "https://github.com/mjorgegulab/vue-markdown-wrapper/issues"

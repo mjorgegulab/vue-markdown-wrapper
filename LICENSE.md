@@ -8,7 +8,7 @@ all code is your original work. `</legalese>`
 
 ## Vue Markdown Wrapper
 
-Copyright (c) 2023, Marc Jorge Gonzalez. (MIT Licensed) https://github.com/mjorgegulab
+Copyright (c) 2024, Marc Jorge Gonzalez. (MIT Licensed) https://github.com/mjorgegulab
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
